@@ -11,3 +11,13 @@ export const initial = async () => {
     console.log(e);
   }
 };
+
+export const initialByRegion = async (region) => {
+  try {
+    app.innerHTML = spinner();
+    const countries = await HTTPservices.getCountryByRegion(region);
+    return countries;
+  } catch (e) {
+    console.log(e);
+  }
+};

@@ -4,6 +4,7 @@ import { header } from '../header/header';
 export const render = (data) => {
   app.innerHTML = app.innerHTML = `
     <header class="header">${header()}</header>
+
     <div class="container">
         ${data
           .map(({ flag, name, capital, region, population, timezones, currencies, translations }) => {
