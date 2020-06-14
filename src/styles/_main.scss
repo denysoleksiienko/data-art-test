@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.country-card {
+  margin: 20px 20px;
+  width: 30%;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1),
+  inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+.country-flag {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.flag-img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1),
+  inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.country-name {
+  text-align: center;
+}
+
+.country-translations-list {
+
+}
+
+.translations-item {
+  padding-left: 40px;
+}
+
+
