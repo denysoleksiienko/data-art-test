@@ -5,7 +5,7 @@ import { render } from './components/render/render';
 import './styles/index.scss';
 
 export const app = document.getElementById('app');
-const regions = document.getElementsByName('countries');
+const regions = document.querySelectorAll('.region-change');
 
 regions.forEach((region) => region.addEventListener('click', filter));
 
